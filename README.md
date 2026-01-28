@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Online Meeting App
 
 A full-stack **online meeting / video conferencing application** built with **React**, **Node.js**, **Express**, **Socket.io**, and **WebRTC**. The project uses **frontend and backend in the same repository** for simple development and testing.
@@ -144,3 +145,7 @@ MONGODB_URL=your_mongodb_connection_string
 ## 📄 License
 
 This project is licensed under th
+=======
+# online-meeting-app
+A full-stack online meeting application built with React, Node.js, Express, Socket.io, and WebRTC, supporting real-time video, audio, and messaging.
+>>>>>>> ec1557a42e5dd249d69a030f8eb3acd7a3d1d670
