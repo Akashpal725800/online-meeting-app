@@ -134,7 +134,7 @@ MONGODB_URL=your_mongodb_connection_string
 
 ## 👨‍💻 Author
 
-**Akash Kumar**
+**Akash pal**
 
 * GitHub: [https://github.com/Akashpal725800](https://github.com/Akashpal725800)
 * LinkedIn: [https://www.linkedin.com/in/akash-pal-6910872a3/](https://www.linkedin.com/in/akash-pal-6910872a3/)
