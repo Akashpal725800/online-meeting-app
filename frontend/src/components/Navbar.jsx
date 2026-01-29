@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="/">HMLogo Meet</Link>
+        <Link className="navbar-brand" to="/">join Meet</Link>
 
         <div>
           <Link className="btn btn-outline-light me-2" to="/">

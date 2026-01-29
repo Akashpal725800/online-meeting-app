@@ -18,7 +18,7 @@ app.use("/api/meeting", require("./routes/meetingRoutes"));
 // ================= DB =================
 mongoose
   .connect(process.env.MONGODB_URL)
-  .then(() => console.log("✅ Database connected"))
+  .then(() => console.log(" Database connected"))
   .catch((err) => console.log("❌ DB error:", err));
 
 // ================= SERVER =================
@@ -120,5 +120,5 @@ io.on("connection", (socket) => {
 
 // ================= START =================
 server.listen(process.env.PORT, "0.0.0.0", () => {
-  console.log(`🚀 Server running on port ${process.env.PORT}`);
+  console.log(` Server running on port ${process.env.PORT}`);
 });

@@ -1,35 +1,7 @@
-// import axios from "axios";
-// import socket from "../socket/socket";
-
-// // 🔥 Auto-detect base URL (Laptop + Phone)
-// const BASE_URL =
-//   window.location.hostname === "localhost"
-//     ? "http://localhost:5005"
-//     : `http://${window.location.hostname}:5005`;
-
-// const API = axios.create({
-//   baseURL: `${BASE_URL}/api/meeting`,
-// });
-
-// // -------- HTTP APIs --------
-// export const createMeeting = (data) => API.post("/create", data);
-// export const getMeetings = () => API.get("/");
-// export const joinMeeting = (id, data) =>
-//   API.post(`/join/${id}`, data);
-
-// // -------- SOCKET --------
-// export const joinMeetingSocket = (meetingId, name) => {
-//   socket.emit("join_meeting", { meetingId, name });
-// };
-
-// export { socket };
-
-
-
 import axios from "axios";
 import socket from "../socket/socket";
 
-// 🔥 Auto-detect base URL (Laptop + Phone + Ngrok)
+//  Auto-detect base URL (Laptop + Phone + Ngrok)
 let BASE_URL;
 
 // Check if running on localhost
